@@ -1,0 +1,48 @@
+//- views/index.pug
+doctype html
+html
+    head
+        title Menú del Restaurante
+        link(rel='stylesheet', href='/styles.css')
+    body
+        header
+            h1 Bienvenido al Restaurante
+            nav
+                ul
+                    li: a(href='/') Inicio
+                    li: a(href='/menu') Menú
+                    li: a(href='/contact') Contacto
+                    li: a(href='/nosotros') Nosotros
+
+        main
+            h2 Nuestro Menú
+            section.menu
+                h3 Entrantes
+                ul
+                    li
+                        strong Ensalada César
+                        | - $10.00
+                    li
+                        strong Sopa del Día
+                        | - $8.00
+
+                h3 Platos Principales
+                ul
+                    li
+                        strong Filete a la Parrilla
+                        | - $25.00
+                    li
+                        strong Salmón a la Plancha
+                        | - $22.00
+
+                h3 Postres
+                ul
+                    li
+                        strong Tarta de Chocolate
+                        | - $6.00
+                    li
+                        strong Helado de Vainilla
+                        | - $5.00
+
+        footer
+            p © 2025 Restaurante. Todos los derechos reservados.

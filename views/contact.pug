@@ -1,0 +1,77 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Pepe's Food
+    style.
+      body {
+        background-color: #f0f0f0;
+        font-family: sans-serif;
+      }
+      header {
+        background-color: #337ab7;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      main {
+        padding: 20px;
+        text-align: center;
+      }
+      section {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      h1, h2 {
+        margin-bottom: 10px;
+      }
+      p {
+        line-height: 1.5;
+      }
+      .contact-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .contact-info a {
+        color: #337ab7;
+        text-decoration: none;
+      }
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+      .contact-form {
+        margin-top: 20px;
+      }
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+      }
+  body
+    header
+      h1
+        | Pepe's Food
+    main
+      section
+        h2 Contacto
+        .contact-info
+          a(href="tel:+09999999999")
+            i.fa.fa-phone
+            | 09999999999
+        h2 Correo
+        .contact-info
+          a(href="pepesfood25@gmail.com")
+            i.fa.fa-phone
+            | pepesfood25@gmail.com
+        h2 Añade un comentario
+        .contact-info
+          a(href="..............")
+            i.fa.fa-phone
+            | .................
